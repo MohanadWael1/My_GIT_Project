@@ -34,6 +34,9 @@ git show <sha> /*To do the same stuff as the diff and diff staged but just in on
 git diff <sha1>..<sha2> /*To show differences between any two commits in the tree*/
 
 
+say hi to shahawy 
+
+
 
 
 git checkout -b trans /*Making a new branch*/
