@@ -1,10 +1,32 @@
 
+ git config --global user.email "mohanad.waelelsaeed@gmail.com" /*Make git know ur mail*/
+ git config --global user.name "Mohanad Wael" /*Make git know ur name*/
+  
+
+git config --list /*shoq these previous configurations*/
+
+git Init /*To make the project Folder a Git Repo*/
+
+git status /*Show status in repo */
+
+git ls-files /*To show Indexed (staged) Files -> staging area contents*/
+
+git add <name or just *> /*To add files to staging area */
+
+git rm --cached <name or *> /*To unstage files*/
+
+git commit -m "Any describtive Comment" /*To commit the file -> (Previous Stage of Pushing on Online Server)*/
+
+
+
+
+
+
+
 git checkout -b trans /*Making a new branch*/
 
 
 git add  APPL/NRF_APPL.cpp /*staging the file to include it in the new version*/
 
- git config --global user.email "mohanad.waelelsaeed@gmail.com"
-  git config --global user.name "Mohanad Wael"
-  
+
   git commit -m'comment'
