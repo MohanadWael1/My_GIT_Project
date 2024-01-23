@@ -18,6 +18,9 @@ git rm --cached <name or *> /*To unstage files*/
 git commit -m "Any describtive Comment" /*To commit the file -> (Previous Stage of Pushing on Online Server)*/
 
 
+git log /*To get History of Commits */
+
+
 
 
 
