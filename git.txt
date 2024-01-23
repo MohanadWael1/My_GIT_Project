@@ -26,6 +26,9 @@ git diff /*After updating ur file , you want to see what is different from the l
 
 git diff --staged /*To get differences between staged and Comitted files*/
 
+git config --global core.editor "Any Text Editor You want" /*Give you accessbility to use any text editor for your commits*/
+
+
 
 
 git checkout -b trans /*Making a new branch*/
