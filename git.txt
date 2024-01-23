@@ -24,7 +24,7 @@ git status -s /*Tell me what files changed  if M is red not identical in staging
 
 git diff /*After updating ur file , you want to see what is different from the last commited version of the file this will show the modification *notice , this show the difference between the working tree (Actual open file) and the staged files , If you added the filed there will be no differences */
 
-
+git diff --staged /*To get differences between staged and Comitted files*/
 
 
 
