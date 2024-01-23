@@ -1,0 +1,10 @@
+
+git checkout -b trans /*Making a new branch*/
+
+
+git add  APPL/NRF_APPL.cpp /*staging the file to include it in the new version*/
+
+ git config --global user.email "mohanad.waelelsaeed@gmail.com"
+  git config --global user.name "Mohanad Wael"
+  
+  git commit -m'comment'
