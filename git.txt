@@ -31,6 +31,8 @@ git config --global core.editor "Any Text Editor You want" /*Give you accessbili
 
 git show <sha> /*To do the same stuff as the diff and diff staged but just in one instruction*/
 
+git diff <sha1>..<sha2> /*To show differences between any two commits in the tree*/
+
 
 
 
