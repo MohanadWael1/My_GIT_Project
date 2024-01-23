@@ -28,6 +28,8 @@ git diff --staged /*To get differences between staged and Comitted files*/
 
 git config --global core.editor "Any Text Editor You want" /*Give you accessbility to use any text editor for your commits*/
 
+git show <sha> /*To do the same stuff as the diff and diff staged but just in one instruction*/
+
 
 
 
