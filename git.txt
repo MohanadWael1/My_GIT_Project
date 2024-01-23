@@ -22,7 +22,7 @@ git log /*To get History of Commits */
 
 git status -s /*Tell me what files changed  if M is red not identical in staging or repo if M is green it is Identical to the staging file but no to the one in the repo*/
 
-
+git diff /*After updating ur file , you want to see what is different from the last commited version of the file this will show the modification *notice , this show the difference between the working tree (Actual open file) and the staged files , If you added the filed there will be no differences */
 
 
 
