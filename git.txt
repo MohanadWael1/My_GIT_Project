@@ -19,6 +19,7 @@ git commit -m "Any describtive Comment" /*To commit the file -> (Previous Stage 
 
 
 git log /*To get History of Commits */
+git log <--oneline or any filtration> /*To get the History in brief **One line only */
 
 git status -s /*Tell me what files changed  if M is red not identical in staging or repo if M is green it is Identical to the staging file but no to the one in the repo*/
 
