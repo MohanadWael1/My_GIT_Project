@@ -36,6 +36,12 @@ git diff <sha1>..<sha2> /*To show differences between any two commits in the tre
 
 say hi to shahawy 
 
+git restore <filename> /*restore this file from the staged tree   working tree != staged tree */
+
+git restore --staged /*To restore this file from staged to unstaged */
+
+
+git commit -am "Any describtive Comment" /*To make add and commit in one step*/
 
 
 
