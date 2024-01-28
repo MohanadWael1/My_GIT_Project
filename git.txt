@@ -40,6 +40,16 @@ git restore <filename> /*restore this file from the staged tree   working tree !
 
 git restore --staged /*To restore this file from staged to unstaged */
 
+git reset Head /*To move back and forth in versions */
+
+/*Make git log -- oneline*/
+
+git reset --hard HEAD~1 /*To be back by one commit*/
+
+/*Make git reflog */
+
+git reset --hard Head@{1} /*To be forward commit number 1*/
+
 
 git commit -am "Any describtive Comment" /*To make add and commit in one step*/
 
