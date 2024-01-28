@@ -51,6 +51,9 @@ git reset --hard HEAD~1 /*To be back by one commit*/
 git reset --hard Head@{1} /*To be forward commit number 1*/
 
 
+git commit --amend /*To Modify the comment of the last Commit*/
+
+
 git commit -am "Any describtive Comment" /*To make add and commit in one step*/
 
 
